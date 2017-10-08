@@ -31,8 +31,8 @@ namespace MyLove.Business
         private async Task<bool> loadMyReplyKnowledge_Testing() {
             //myReplyKnowledge.Add("Meeting", new List<string> {"Sure we can meet at [REPLACE1] by [REPLACE2]","Sure","Why not.", "Would be great to meet you at [REPLACE1]" });
             //myReplyKnowledge.Add("Question", new List<string> { "Yes", "All time", "All time for you", "Yes. Tell me","I am here" });
-            string url = "https://xhacknight17.blob.core.windows.net/app/textmeknowledge.txt";
-            
+            string url = "https://xhacknight17.blob.core.windows.net/app/textmeknowledge.txt?sec=" + DateTime.Now.Second.ToString();
+
             string task = await luis.MakeAsyncRequest(url,"","text/html");
             JsonValue collection = JsonValue.Parse(task);
             for(int i=0;i< collection.Count; i++)
