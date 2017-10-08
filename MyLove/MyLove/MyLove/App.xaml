@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MyLove.App">
+	<Application.Resources>
+        <ResourceDictionary>
+            <ControlTemplate x:Key="MainPageTemplate">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="0.1*" />
+                        <RowDefinition Height="0.8*" />
+                        <!--<RowDefinition Height="0.1*" />-->
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="0.05*" />
+                        <ColumnDefinition Width="0.95*" />
+                    </Grid.ColumnDefinitions>
+
+                    <!--template header-->
+                    <!--use of template binding for color-->
+                    <BoxView Grid.ColumnSpan="2" Color="{TemplateBinding Parent.ThemeColor}" 
+                           BackgroundColor="#33691E" />
+                    <Label Grid.Row="0" Grid.Column="1"
+         Text="Text Me"
+         TextColor="White" FontSize="24"
+         VerticalOptions="Center" />
+                    <!--template header-->
+
+                    <!--your page content goes in here-->
+                    <ContentPresenter Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" />
+
+                </Grid>
+            </ControlTemplate>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

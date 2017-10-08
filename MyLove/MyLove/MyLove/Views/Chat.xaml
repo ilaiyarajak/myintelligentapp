@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MyLove.Views.Chat"
+              ControlTemplate="{StaticResource MainPageTemplate}"
+             BackgroundColor="Black">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="Black"
+                     Padding="10,0,10,0" >
+            <ListView x:Name="lstChatHistory" SeparatorColor="Green" VerticalOptions="FillAndExpand" HasUnevenRows="True" RowHeight="30">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout Orientation="Vertical" Padding="10,5,10,10">
+                                <Label Font="Bold,20" FontSize="Medium" TextColor="White" Text="{Binding UserName}" HorizontalTextAlignment="End" LineBreakMode="TailTruncation" />
+                                <Label TextColor="White" Text="{Binding UserMessage}" HorizontalTextAlignment="End" LineBreakMode="WordWrap" />
+                                <Label Font="Bold,20" FontSize="Medium" TextColor="#AED581" Text="{Binding BotName}" HorizontalTextAlignment="Start" LineBreakMode="TailTruncation" />
+                                <Label  TextColor="#AED581" Text="{Binding BotMessage}" HorizontalTextAlignment="Start" LineBreakMode="WordWrap" />
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="10*" />
+                    <ColumnDefinition Width="70*" />
+                    <ColumnDefinition Width="20*" />
+                </Grid.ColumnDefinitions>
+                <Button x:Name="btnMic" Text="R" Grid.Row="0" Grid.Column="0" Clicked="MicClicked"/>
+                <Entry TextColor="White" x:Name="txtMessage" Placeholder="Type here" PlaceholderColor="#9E9E9E" Grid.Row="0" Grid.Column="1" />
+                <Button x:Name="btnSend" Text="Send" Grid.Row="0" Grid.Column="2" Clicked="SendClicked"/>
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
