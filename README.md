@@ -11,6 +11,9 @@ Converting Bot reply from text to speach convertion:
 ![Alt text](/Screens/Code/texttospeech.JPG?raw=true "texttospeech")
 
 Mobile screens:
+Sample queries,
+"Good Morning"
+"Say Hello"
 
 Home ICon:
 
