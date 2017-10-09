@@ -1,12 +1,12 @@
 # myintelligentapp
 My Intelligent App Using Xamarin in XHackNight17
 
-Sample queries you can try with this Text Me App,
+Sample queries you can try with this Text Me App,<br/>
 "Weather in Bangalore"<br/>
-"Good Morning"
-"Say Hello"
-"Who are you?"
-Pretty much you can try any normal conversation.
+"Good Morning"<br/>
+"Say Hello"<br/>
+"Who are you?"<br/>
+Pretty much you can try any normal conversation.<br/>
 
 My Code Structure:
 ![Alt text](/Screens/Code/struct.JPG?raw=true "Structure")
