@@ -38,5 +38,5 @@ User is typing:
 
 Bot is typing:
 
-![Alt text](/Screens/Mobile/bottyping.JPG?raw=true "texttospeech")
+![Alt text](/Screens/Mobile/bottyping.png?raw=true "texttospeech")
 
