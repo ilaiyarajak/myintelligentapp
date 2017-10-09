@@ -1,6 +1,7 @@
 # myintelligentapp
 My Intelligent App Using Xamarin in XHackNight17
 
+Download the app from here - bit.ly/xhacknight17app
 Sample queries you can try with this Text Me App,<br/>
 "Weather in Bangalore"<br/>
 "Good Morning"<br/>
