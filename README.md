@@ -7,8 +7,9 @@ Sample queries you can try with this Text Me App,<br/>
 "Say Hello"<br/>
 "Who are you?"<br/>
 Pretty much you can try any normal conversation.<br/>
-
+--------------------------------------------------
 My Code Structure:
+
 ![Alt text](/Screens/Code/struct.JPG?raw=true "Structure")
 
 Connection to LUIS:
