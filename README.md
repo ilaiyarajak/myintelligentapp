@@ -1,6 +1,13 @@
 # myintelligentapp
 My Intelligent App Using Xamarin in XHackNight17
 
+Sample queries you can try with this Text Me App,
+"Weather in Bangalore"
+"Good Morning"
+"Say Hello"
+"Who are you?"
+Pretty much you can try any normal conversation.
+
 My Code Structure:
 ![Alt text](/Screens/Code/struct.JPG?raw=true "Structure")
 
@@ -11,9 +18,7 @@ Converting Bot reply from text to speach convertion:
 ![Alt text](/Screens/Code/texttospeech.JPG?raw=true "texttospeech")
 
 Mobile screens:
-Sample queries,
-"Good Morning"
-"Say Hello"
+
 
 Home ICon:
 
