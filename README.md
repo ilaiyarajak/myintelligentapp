@@ -2,7 +2,7 @@
 My Intelligent App Using Xamarin in XHackNight17
 
 Sample queries you can try with this Text Me App,
-"Weather in Bangalore"
+"Weather in Bangalore"<br/>
 "Good Morning"
 "Say Hello"
 "Who are you?"
