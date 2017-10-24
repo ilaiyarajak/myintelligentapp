@@ -35,5 +35,6 @@
                 <Button x:Name="btnSend" Text="Send" Grid.Row="0" Grid.Column="2" Clicked="SendClicked"/>
             </Grid>
         </StackLayout>
+      <Label Font="Bold,20" FontSize="Medium" TextColor="White" Text="Developed By Ilaiya for XHackNight" LineBreakMode="TailTruncation" />
     </ContentPage.Content>
 </ContentPage>
